@@ -8,6 +8,7 @@ bool WriteWaveFile(char const *szFileName, float *pRawData, int32_t nNumSamples,
 class sinesound
 {
 private:
+    //Basic parameters are defined
     char* name;
     int nSeconds = 0;
     float fPhase = 0;
